@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-20T21:26:23 IST" name="Suite" finished-at="2024-03-20T21:27:25 IST" duration-ms="62004">
+    <groups>
+      <group name="regression">
+        <method signature="TC001_BookShelves.select_bookshelves()[pri:1, instance:testcases.TC001_BookShelves@3d8bbcdc]" name="select_bookshelves" class="testcases.TC001_BookShelves"/>
+        <method signature="TC001_BookShelves.SelectFilters()[pri:2, instance:testcases.TC001_BookShelves@3d8bbcdc]" name="SelectFilters" class="testcases.TC001_BookShelves"/>
+        <method signature="TC002_Living_Submenu.printSubmenu()[pri:2, instance:testcases.TC002_Living_Submenu@452ba1db]" name="printSubmenu" class="testcases.TC002_Living_Submenu"/>
+        <method signature="TC003_GiftCards.NegativeTestCase()[pri:2, instance:testcases.TC003_GiftCards@2289aca5]" name="NegativeTestCase" class="testcases.TC003_GiftCards"/>
+        <method signature="TC001_BookShelves.printProductDetails()[pri:3, instance:testcases.TC001_BookShelves@3d8bbcdc]" name="printProductDetails" class="testcases.TC001_BookShelves"/>
+        <method signature="TC003_GiftCards.PositiveTestCase()[pri:3, instance:testcases.TC003_GiftCards@2289aca5]" name="PositiveTestCase" class="testcases.TC003_GiftCards"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC001_BookShelves.select_bookshelves()[pri:1, instance:testcases.TC001_BookShelves@3d8bbcdc]" name="select_bookshelves" class="testcases.TC001_BookShelves"/>
+        <method signature="TC002_Living_Submenu.viewLiving()[pri:1, instance:testcases.TC002_Living_Submenu@452ba1db]" name="viewLiving" class="testcases.TC002_Living_Submenu"/>
+        <method signature="TC003_GiftCards.ChooseBirthdayGiftCard()[pri:1, instance:testcases.TC003_GiftCards@2289aca5]" name="ChooseBirthdayGiftCard" class="testcases.TC003_GiftCards"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC001_BookShelves.select_bookshelves()[pri:1, instance:testcases.TC001_BookShelves@3d8bbcdc]" name="select_bookshelves" class="testcases.TC001_BookShelves"/>
+        <method signature="TC002_Living_Submenu.viewLiving()[pri:1, instance:testcases.TC002_Living_Submenu@452ba1db]" name="viewLiving" class="testcases.TC002_Living_Submenu"/>
+        <method signature="TC003_GiftCards.ChooseBirthdayGiftCard()[pri:1, instance:testcases.TC003_GiftCards@2289aca5]" name="ChooseBirthdayGiftCard" class="testcases.TC003_GiftCards"/>
+        <method signature="TC001_BookShelves.SelectFilters()[pri:2, instance:testcases.TC001_BookShelves@3d8bbcdc]" name="SelectFilters" class="testcases.TC001_BookShelves"/>
+        <method signature="TC002_Living_Submenu.printSubmenu()[pri:2, instance:testcases.TC002_Living_Submenu@452ba1db]" name="printSubmenu" class="testcases.TC002_Living_Submenu"/>
+        <method signature="TC003_GiftCards.NegativeTestCase()[pri:2, instance:testcases.TC003_GiftCards@2289aca5]" name="NegativeTestCase" class="testcases.TC003_GiftCards"/>
+        <method signature="TC001_BookShelves.printProductDetails()[pri:3, instance:testcases.TC001_BookShelves@3d8bbcdc]" name="printProductDetails" class="testcases.TC001_BookShelves"/>
+        <method signature="TC003_GiftCards.PositiveTestCase()[pri:3, instance:testcases.TC003_GiftCards@2289aca5]" name="PositiveTestCase" class="testcases.TC003_GiftCards"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-03-20T21:26:23 IST" name="Test" finished-at="2024-03-20T21:27:25 IST" duration-ms="62004">
+      <class name="testcases.TC002_Living_Submenu">
+        <test-method signature="viewLiving()[pri:1, instance:testcases.TC002_Living_Submenu@452ba1db]" started-at="2024-03-20T21:27:02 IST" name="viewLiving" finished-at="2024-03-20T21:27:06 IST" duration-ms="3192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewLiving -->
+        <test-method signature="printSubmenu()[pri:2, instance:testcases.TC002_Living_Submenu@452ba1db]" started-at="2024-03-20T21:27:06 IST" name="printSubmenu" finished-at="2024-03-20T21:27:07 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printSubmenu -->
+      </class> <!-- testcases.TC002_Living_Submenu -->
+      <class name="testcases.TC001_BookShelves">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC001_BookShelves@3d8bbcdc]" started-at="2024-03-20T21:26:24 IST" name="setup" finished-at="2024-03-20T21:26:34 IST" duration-ms="10307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="select_bookshelves()[pri:1, instance:testcases.TC001_BookShelves@3d8bbcdc]" started-at="2024-03-20T21:26:34 IST" name="select_bookshelves" finished-at="2024-03-20T21:26:40 IST" duration-ms="5468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_bookshelves -->
+        <test-method signature="SelectFilters()[pri:2, instance:testcases.TC001_BookShelves@3d8bbcdc]" started-at="2024-03-20T21:26:40 IST" name="SelectFilters" finished-at="2024-03-20T21:26:55 IST" duration-ms="14174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFilters -->
+        <test-method signature="printProductDetails()[pri:3, instance:testcases.TC001_BookShelves@3d8bbcdc]" started-at="2024-03-20T21:26:55 IST" name="printProductDetails" finished-at="2024-03-20T21:27:02 IST" duration-ms="7120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printProductDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC001_BookShelves@3d8bbcdc]" started-at="2024-03-20T21:27:24 IST" name="tearDown" finished-at="2024-03-20T21:27:25 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC001_BookShelves -->
+      <class name="testcases.TC003_GiftCards">
+        <test-method signature="ChooseBirthdayGiftCard()[pri:1, instance:testcases.TC003_GiftCards@2289aca5]" started-at="2024-03-20T21:27:08 IST" name="ChooseBirthdayGiftCard" finished-at="2024-03-20T21:27:13 IST" duration-ms="5678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseBirthdayGiftCard -->
+        <test-method signature="NegativeTestCase()[pri:2, instance:testcases.TC003_GiftCards@2289aca5]" started-at="2024-03-20T21:27:14 IST" name="NegativeTestCase" finished-at="2024-03-20T21:27:18 IST" duration-ms="4676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeTestCase -->
+        <test-method signature="PositiveTestCase()[pri:3, instance:testcases.TC003_GiftCards@2289aca5]" started-at="2024-03-20T21:27:19 IST" name="PositiveTestCase" finished-at="2024-03-20T21:27:24 IST" duration-ms="4967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PositiveTestCase -->
+      </class> <!-- testcases.TC003_GiftCards -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

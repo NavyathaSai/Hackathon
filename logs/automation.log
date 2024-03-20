@@ -1,0 +1,12 @@
+21:37:20.005 [main] INFO  testcases.TC001_BookShelves - ------Printing the product details-------
+21:37:23.140 [main] INFO  testcases.TC001_BookShelves - ------Mouse hovering to the header Living-------
+21:37:26.575 [main] INFO  testcases.TC001_BookShelves - ------Printing the menu list of seating&chairs-------
+21:37:32.679 [main] INFO  testcases.TC001_BookShelves - ------Clicked the Giftcards-------
+21:37:32.685 [main] INFO  testcases.TC001_BookShelves - ------Choosing Birthday/Anniversay-------
+21:37:32.767 [main] INFO  testcases.TC001_BookShelves - ------Select the gift amount-------
+21:37:33.570 [main] INFO  testcases.TC001_BookShelves - ------Filling the To and From form-------
+21:37:35.212 [main] INFO  testcases.TC001_BookShelves - ------Clicking the confirm button-------
+21:37:38.312 [main] INFO  testcases.TC001_BookShelves - ------Getting the error message-------
+21:37:38.746 [main] INFO  testcases.TC001_BookShelves - ------Clearing the Form-------
+21:37:39.450 [main] INFO  testcases.TC001_BookShelves - ------Enter the valid Email-------
+21:37:40.857 [main] INFO  testcases.TC001_BookShelves - ------Clicking the confirm button-------
